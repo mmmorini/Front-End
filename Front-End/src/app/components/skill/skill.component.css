@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+.container1 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.container1 h3 {
+    font-family: 'Castoro Titling', cursive;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+    color: rgb(100, 193, 199);
+    text-shadow: 0 0 2px #fff;    
+}
+
+.skill {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 150px;
+}
+
+.skill-container div {
+    max-width: 200px;
+    max-height: 200px;
+    background-image: url(../../../assets/linkedin.png);
+}

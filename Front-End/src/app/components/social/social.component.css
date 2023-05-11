@@ -1,0 +1,15 @@
+.social {
+    display: flex;
+    gap: 25px;
+}
+
+.social img {
+    width: 40px;    
+    border-radius: 50%;
+    transition: background .4s;
+}
+
+.social img:hover {
+    background: rgb(12, 78, 191);
+    box-shadow: 0 0 20px rgb(12, 78, 191);
+}

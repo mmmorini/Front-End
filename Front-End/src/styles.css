@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ 
+#body {
+    background: #171520;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    background:#171520;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 10px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+}
+
+@media (max-width: 575px){
+    .foto {
+        width: 200px;
+        height: 200px;
+    }
+
+    .banner h1 {
+        flex-direction: column;
+        text-align: center;
+    }
+}

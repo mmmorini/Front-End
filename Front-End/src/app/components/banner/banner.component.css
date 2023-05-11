@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+.banner {
+    background-image: linear-gradient(rgb(0, 53, 142), #171520);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 50px;
+    font-family: 'Castoro Titling', cursive;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px 0 #000;
+}
+
+.banner p {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 30px;
+}
